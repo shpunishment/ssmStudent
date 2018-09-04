@@ -1,3 +1,4 @@
+# ssmStudent
 ### 基于SSM框架的学籍管理系统
 前端采用bootstrap完成管理页面布局 <br>
 后端采用Spring+SpringMVC+Mybatis+Mysql <br>
