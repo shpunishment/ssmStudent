@@ -9,3 +9,20 @@
 实现成绩管理，学生表，成绩表及课程表的三表的增删改查。<br>
 
 ## 效果
+登录页面 登录失败显示 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E7%99%BB%E5%BD%95%E5%A4%B1%E8%B4%A5.PNG"  />
+
+学生管理页面 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86.PNG" />
+
+添加弹出模态框 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E6%B7%BB%E5%8A%A0.PNG"/>
+
+修改弹出模态框，并且数据自动填入 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E4%BF%AE%E6%94%B9.PNG" />
+ 
+课程管理 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E8%AF%BE%E7%A8%8B%E7%AE%A1%E7%90%86.PNG"  />
+
+成绩管理 <br>
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E6%88%90%E7%BB%A9%E7%AE%A1%E7%90%86.PNG"  />
