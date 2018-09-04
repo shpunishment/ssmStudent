@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shpun.dao.StudentDao">
+
+    <insert id="insertStudent" useGeneratedKeys="true" keyProperty="studentId" parameterType="student">
+        insert into students (studentName,studentGender,studentClass,studentMajor,studentDepartment,studentRewOrPun) value (#{studentName},#{studentGender},#{studentClass},#{studentMajor},#{studentDepartment},#{studentRewOrPun})
+    </insert>
+
+    <delete id="deleteStudent" parameterType="int">
+        delete from students where studentId=#{studentId}
+    </delete>
+
+    <update id="updateStudent" parameterType="student">
+        update students set studentName=#{studentName},studentGender=#{studentGender},studentClass=#{studentClass},studentMajor=#{studentMajor},studentDepartment=#{studentDepartment},studentRewOrPun=#{studentRewOrPun} where studentId=#{studentId}
+    </update>
+
+    <select id="searchFromStudent" parameterType="string" resultType="student">
+        select studentId,studentName,studentGender,studentClass,studentMajor,studentDepartment,studentRewOrPun  from students where
+            concat(studentId,ifnull(studentName,''),ifnull(studentGender,''),ifnull(studentClass,''),ifnull(studentMajor,''),ifnull(studentDepartment,''),ifnull(studentRewOrPun,'')) like concat(concat('%',#{s}),'%')
+    </select>
+
+    <select id="selectStudentById" parameterType="int" resultType="student">
+        select studentId,studentName,studentGender,studentClass,studentMajor,studentDepartment,studentRewOrPun from students where studentId=#{studentId}
+    </select>
+
+    <select id="selectAllStudents" resultType="student">
+        select studentId,studentName,studentGender,studentClass,studentMajor,studentDepartment,studentRewOrPun from students
+    </select>
+
+
+</mapper>

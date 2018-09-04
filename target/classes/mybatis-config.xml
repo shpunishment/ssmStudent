@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- 全局映射器启用缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- 允许JDBC支持生成的键 -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!-- 配置默认执行器 Reuse 重用预处理语句 -->
+        <setting name="defaultExecutorType" value="REUSE"/>
+        <!-- 全局启用延迟加载 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 设置超时时间，决定驱动等待一个数据库相应的时间 -->
+        <setting name="defaultStatementTimeout" value="2500"/>
+    </settings>
+
+</configuration>

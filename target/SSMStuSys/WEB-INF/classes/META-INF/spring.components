@@ -1,0 +1,15 @@
+#
+#Fri Aug 31 20:33:20 CST 2018
+com.shpun.controller.StudentController=org.springframework.stereotype.Component
+com.shpun.service.impl.ScoreServiceImpl=org.springframework.stereotype.Component
+com.shpun.controller.CourseController=org.springframework.stereotype.Component
+com.shpun.dao.ScoreDao=org.springframework.stereotype.Component
+com.shpun.service.impl.TeacherServiceImpl=org.springframework.stereotype.Component
+com.shpun.dao.CourseDao=org.springframework.stereotype.Component
+com.shpun.dao.StudentDao=org.springframework.stereotype.Component
+com.shpun.service.impl.StudentServiceImpl=org.springframework.stereotype.Component
+com.shpun.controller.ScoreController=org.springframework.stereotype.Component
+com.shpun.service.impl.CourseServiceImpl=org.springframework.stereotype.Component
+com.shpun.controller.ManagerController=org.springframework.stereotype.Component
+com.shpun.dao.TeacherDao=org.springframework.stereotype.Component
+com.shpun.controller.LoginController=org.springframework.stereotype.Component
