@@ -21,6 +21,9 @@
 修改弹出模态框，并且数据自动填入 <br>
 <img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E4%BF%AE%E6%94%B9.PNG" />
  
+查询返回查询页面<br> 
+<img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E6%9F%A5%E8%AF%A2.PNG"  />
+
 课程管理 <br>
 <img src="https://github.com/shpunishment/ssmStudent/blob/master/src/main/resources/image/%E8%AF%BE%E7%A8%8B%E7%AE%A1%E7%90%86.PNG"  />
 
